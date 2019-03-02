@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Akash Gupta</title>
+  <link rel="icon" type="image" href="{% static 'akash.jpg' %}" />
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" >
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.min.css">
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="{% static 'css/resume.css' %}" >
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="{% url 'home' %}">
+      <span class="d-block d-lg-none">Akash Gupta</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'akash.jpg' %}" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{% url 'home' %}">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{% url 'experience' %}">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{% url 'education' %}">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{% url 'skills' %}">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{% url 'interests' %}">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="{% static 'Resume.pdf' %}" target="_blank">Resumé</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center">
+      <div class="w-100">
+        <h1 class="mb-0">Akash
+          <span class="text-primary">Gupta</span>
+        </h1>
+        <div class="subheading mb-5">New Delhi, IN · (+91) 9811371117 ·
+          <a href="mailto:akashgupta93366@gmail.com">AKASHGUPTA93366@GMAIL.COM</a>
+        </div>
+        <p class="lead mb-5">Hello there! I am an experienced Data Analyst. I like to derive meaningful insights from data by playing with it all day long. In my leisure time, I love to listen to some good music and satisfy my taste buds!</p>
+        <div class="social-icons">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+          <a href="https://www.linkedin.com/in/akash-gupta-399277143/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/akashgupta2103" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/akash.gupta.93366" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+		  <a href="https://www.instagram.com/ae_kaash/" target="_blank">
+			<i class="fab fa-instagram"></i>
+		  </a>	
+        </div>
+      </div>
+    </section>
+
+
+
+</div>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.css">
+
+<style>	
+
+.fas {
+    
+	color: red;
+}
+.devicon-django-plain {
+  font-size: 2rem
+}
+.devicon-html5-plain {
+  font-size: 2rem
+}
+.devicon-bootstrap-plain {
+  font-size: 2rem
+}
+.devicon-postgresql-plain {
+  font-size: 2rem
+}
+
+<!-- in your body -->
+
+</style>
+
+ 
+<footer style="text-align:center">
+Made with <i class="fas fa-heart"></i> in India by myself and powered by
+<p>
+<i class="devicon-django-plain colored"></i>
+<i class="devicon-html5-plain colored"></i>
+<i class="devicon-bootstrap-plain colored"></i>
+<i class="devicon-postgresql-plain colored"></i>
+</p>
+</footer>
+
+   <script src="{% static 'js/bootstrap.js' %}" ></script>
+    <script src="{% static 'jquery-3.3.1.min.js' %}" ></script>
+
+</body>
+
+</html>
