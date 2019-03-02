@@ -25,7 +25,7 @@ SECRET_KEY = 'ev6+(%(0a-+l$fj3yis2*hcl=q1k$bkfw75a4*5x44pnoxnoi)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost','rocky-wildwood-97220.herokuapp.com']
 
 
 # Application definition
